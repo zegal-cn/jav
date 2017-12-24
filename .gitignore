@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+
+###### client ############
+
+# dependencies
+/client/node_modules
+
+# production
+/client/dist
+
+# misc
+/client/.DS_Store
+/client/npm-debug.log*
+
+
+###### Server ############
+
+# Ignore bundler config.
+/server/.bundle
+
+# Ignore the default SQLite database.
+/server/db/*.sqlite3
+/server/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/server/log/*
+/server/tmp/*
+!/server/log/.keep
+!/server/tmp/.keep
+
+/server/.byebug_history
+
+/server/app/assets/images/avatar/*
+/server/app/assets/images/logo/*
+/server/public/assets/images/avatar/*
+/server/public/assets/images/logo/*
